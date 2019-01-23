@@ -4,7 +4,7 @@
       <v-app id="inspire" class="app">
         <!-- 左导航条 -->
         <app-drawer class="app--drawer"></app-drawer>
-        <!-- 顶部横条 -->
+        <!-- 顶部横条，测试一下 -->
         <app-toolbar class="app--toolbar"></app-toolbar>
 
         <v-content>
