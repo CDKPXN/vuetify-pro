@@ -7,6 +7,12 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+    
+	
+	
+	
+	
+	
   "dependencies": {
     "font-awesome": "^4.7.0",
     "global": "^4.3.2",
