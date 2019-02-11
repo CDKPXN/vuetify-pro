@@ -33,8 +33,12 @@ export default {
             return i.component === this.$route.name;
           });
           if (child) {
-            breadcrumbs.push(item.title);
-            breadcrumbs.push(child.title);
+            breadcrumbs.push({
+              text: item.title
+            });
+            breadcrumbs.push({
+              text: child.title
+            });
             // eslint-disable-next-line
             this.title = child.title;
           }
