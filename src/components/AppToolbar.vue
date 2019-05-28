@@ -22,14 +22,14 @@
     <!-- spacer是一个填充组件，就是将搜索框与右边的按钮中间留出距离 -->
     <v-spacer></v-spacer>
     <!-- 右侧的按钮 -->
-    <v-toolbar-items>
+    <!-- <v-toolbar-items>
       <v-btn flat href="mailto:wangqiangshen@gmail.com">
         Hire Me
       </v-btn>
-    </v-toolbar-items>
-    <v-btn icon href="https://github.com/tookit/vue-material-admin">
+    </v-toolbar-items> -->
+    <!-- <v-btn icon href="https://github.com/tookit/vue-material-admin">
       <v-icon>fa fa-github</v-icon>
-    </v-btn>
+    </v-btn> -->
     <v-btn icon @click="handleFullScreen()">
       <v-icon>fullscreen</v-icon>
     </v-btn>

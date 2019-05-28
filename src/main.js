@@ -8,6 +8,10 @@ import "./registerServiceWorker";
 import "roboto-fontface/css/roboto/roboto-fontface.css";
 import "font-awesome/css/font-awesome.css";
 
+
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
+
 Vue.config.productionTip = false;
 
 new Vue({

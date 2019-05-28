@@ -43,6 +43,7 @@ const Menu = [
     group: "profile",
     icon: "assignment",
     name: "profile",
+    component: "Profile",
     items: [
       {
         name: "basic-profile",
