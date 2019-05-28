@@ -16,12 +16,13 @@
           </div>
           <!-- 页脚 -->
           <v-footer height="auto" class="white pa-3 app--footer">
-            <span class="caption"
+            <!-- <span class="caption"
               >isocked.com Design &copy; {{ new Date().getFullYear() }}</span
             >
             <v-spacer></v-spacer>
             <span class="caption mr-1"> Make With Love </span>
-            <v-icon color="pink" small>favorite</v-icon>
+            <v-icon color="pink" small>favorite</v-icon> -->
+            <Footer></Footer>
           </v-footer>
         </v-content>
 
@@ -90,6 +91,7 @@
   </div>
 </template>
 <script>
+import Footer from "@/components/core/Footer";
 import AppDrawer from "@/components/AppDrawer"; // 左侧导航条
 import AppToolbar from "@/components/AppToolbar"; // 顶部横条
 import AppFab from "@/components/AppFab"; // 快速返回顶部按钮
@@ -102,7 +104,8 @@ export default {
     AppToolbar,
     AppFab,
     PageHeader,
-    ThemeSettings
+    ThemeSettings,
+    Footer
   },
   data: () => ({
     expanded: true,
